@@ -1,0 +1,35 @@
+html {
+    background-color: rgb(255, 250, 240);
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.plantig {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: cursive;
+    color: rgb(31, 24, 75);
+    font-size: x-large;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 28, 24);
+    font-size: larger;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(12, 2, 0);
+}
