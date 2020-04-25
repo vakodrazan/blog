@@ -1,0 +1,51 @@
+:root {
+    --base-unit: 3rem;
+    --text-color: #fff;
+    --text-align: center;
+}
+
+header {
+    color: var(--text-color);
+    text-align: var(--text-align);
+}
+
+header h1 {
+    color: coral;
+}
+
+body {
+    background-image: url(../images/rice_field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    font-size: calc(var(--base-unit) / 1.5);
+}
+
+main section {
+    color: var(--text-color);
+}
+
+section ul {
+    list-style: none;
+}
+
+section h2 {
+    color: yellow;
+    text-align: var(--text-align);
+}
+
+section img {
+    padding-inline-end: var(--base-unit);
+    border-radius: 1rem;
+    float: left;
+    width: auto;
+}
+
+@media (max-width: 400px) {
+    section img {
+        padding-inline-end: 0;
+        width: auto;
+}
+}
