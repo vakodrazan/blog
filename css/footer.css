@@ -1,0 +1,18 @@
+body footer {
+    --base-unit: 2rem;
+    margin-block-end: var(--base-unit);
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: var(--base-unit);
+}
+
+
+footer a:hover {
+    transition: all 2s;
+    color: darkcyan;
+    font-size: calc(var(--base-unit) * 1.5);
+}

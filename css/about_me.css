@@ -1,0 +1,66 @@
+:root {
+    --base_unit: 2rem;
+    --size: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: calc(var(--base_unit) * 2);
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/green_space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body main {
+    width: var(--size);
+    height: var(--size);
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+section p {
+    color: gold;
+    font-size: var(--base_unit);
+    padding-inline-start: var(--base_unit);
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(232, 248, 14);
+}
+
+section a:hover {
+    transition: 1s;
+    color: deeppink;
+}
+
+main section {
+    display: flex;
+}
+
+section img {
+    border-radius: var(--base_unit);
+    width: calc(var(--size) / 2);
+}
+
+@media (max-width: 500px) {
+    main section {
+        display: inline-block;
+    }
+    section p {
+        padding-inline-start: 0;
+        font-size: calc(var(--base_unit) / 2);
+    }
+}
+
+@media (max-width: 645px) {
+    section p {
+        padding-inline-start: 0;
+        font-size: calc(var(--base_unit) / 1.5);
+    }
+}
