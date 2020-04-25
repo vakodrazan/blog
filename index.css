@@ -1,0 +1,49 @@
+:root {
+    --width: 100%;
+    --base_unit: 5rem;
+    --text-color: blue;
+    --text_transform: uppercase;
+    --size: calc(var(--base_unit) / 2);
+}
+
+
+body {
+    background-image: url(../blog/images/links_images.jpg);
+    background-repeat: no-repeat;
+    width: var(--width);
+    background-position: center;
+    background-size: cover;
+    margin-block-end: var(--base_unit);
+    line-height: var(--base_unit);
+    font-family: sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: var(--size);
+}
+
+main a {
+    text-decoration: none;
+    text-transform: var(--text_transform);
+    color: #fff;
+    transition: 1s;
+}
+
+main a:hover {
+    color: var(--text-color);
+    font-size: var(--base_unit);
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+    line-height: var(--size);
+    font-size: var(--size);
+}
+
+header {
+    text-align: center;
+}
